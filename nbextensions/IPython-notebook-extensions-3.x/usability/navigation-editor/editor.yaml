@@ -1,0 +1,7 @@
+Type: IPython Notebook Extension
+Name: Navigation-Editor
+Description: Additional hotkeys for calling out to an editor
+Link: tbd
+Icon: tbd
+Main: main.js
+Compatibility: 3.x

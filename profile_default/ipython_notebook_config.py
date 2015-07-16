@@ -1,6 +1,7 @@
 # Configuration file for ipython-notebook.
 
 c = get_config()
+c.NotebookApp.server_extensions = [ 'nbextensions']
 
 #------------------------------------------------------------------------------
 # NotebookApp configuration
