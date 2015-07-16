@@ -3,6 +3,12 @@
 c = get_config()
 c.NotebookApp.server_extensions = [ 'nbextensions']
 
+import os,site
+site.addsitedir('{}/.ipython/extensions'.format(os.environ['HOME']))
+import recombinecm
+c.NotebookApp.contents_manager_class = 'recombinecm.RecombineContentsManager'
+
+
 #------------------------------------------------------------------------------
 # NotebookApp configuration
 #------------------------------------------------------------------------------
