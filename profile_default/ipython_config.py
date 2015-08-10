@@ -67,7 +67,7 @@ c = get_config()
 # c.InteractiveShellApp.reraise_ipython_extension_failures = False
 
 # Configure matplotlib for interactive use with the default matplotlib backend.
-# c.InteractiveShellApp.matplotlib = None
+c.InteractiveShellApp.matplotlib = 'auto'
 
 #------------------------------------------------------------------------------
 # TerminalIPythonApp configuration
